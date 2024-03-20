@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import DefaultPage from './DefaultPage';
+import Ankit from './Ankit';
 
 
 
@@ -12,13 +14,15 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div className="App">
-      <header className="App-header">
-      Pace Super Kings
-      </header>
-    </div>,
+      element: <DefaultPage />,
     
     },
+    {
+      path: "/ankit",
+      element: <Ankit />,
+    
+    }
+
   ]);
 
   return (
