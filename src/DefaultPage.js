@@ -15,6 +15,7 @@ function DefaultPage() {
     Pace Super Kings
      <ol>
         <li><a href="/ankit">Ankit</a></li>
+        <li><a href="/temporary">Temporary</a></li>
     </ol>
     </header>
 

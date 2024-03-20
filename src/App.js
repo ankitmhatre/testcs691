@@ -3,6 +3,7 @@ import './App.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import DefaultPage from './DefaultPage';
 import Ankit from './Ankit';
+import Temp from './Temp';
 
 
 
@@ -20,6 +21,11 @@ function App() {
     {
       path: "/ankit",
       element: <Ankit />,
+    
+    },
+    {
+      path: "/temporary",
+      element: <Temp />,
     
     }
 
