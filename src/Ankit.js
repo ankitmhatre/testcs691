@@ -6,7 +6,7 @@ function Ankit() {
     return (
        <center>
         <h1> Welcome to Ankit's page</h1>
-        <a href="/">Home</a>
+        <a href="/">Back</a>
        </center>
     );
 
